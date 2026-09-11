@@ -1,0 +1,26 @@
+###################################################################################################
+# tw-mod-attunement-skip module configuration
+###################################################################################################
+
+[AttunementSkip]
+
+# Enables the Attunement Skip module. Set to 0 to disable.
+AttunementSkip.Enable = 1
+
+# Grant Drakefire Amulet (Onyxia's Lair attunement) at level 60.
+AttunementSkip.DrakefireAmulet = 1
+
+# Grant Onyxia Scale Cloak (Blackwing Lair Shadow Flame protection) at level 60.
+AttunementSkip.OnyxiaScaleCloak = 1
+
+# Auto-complete the Molten Core attunement quest at level 60.
+# Quest: Attunement to the Core (7848)
+AttunementSkip.MoltenCoreAttunement = 1
+
+# Auto-complete the Blackwing Lair attunement quest at level 60.
+# Quest: Blackhand's Command (7761)
+AttunementSkip.BlackwingLairAttunement = 1
+
+# Auto-complete the Naxxramas 40 attunement quests at level 60.
+# Quests: The Archangel's Payload (9121), Echoes of War (9122), The Only Song I Know... (9123)
+AttunementSkip.Naxx40Attunement = 1
